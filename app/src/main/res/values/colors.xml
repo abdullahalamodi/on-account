@@ -6,4 +6,6 @@
     //colors
     <color name="back_color">#F3F4F5</color>
     <color name="hint_color">#B4C1C6</color>
+    <color name="white_color">#FFFFFF</color>
+    <color name="accent_color">#00b467</color>
 </resources>
