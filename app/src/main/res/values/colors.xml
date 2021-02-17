@@ -7,5 +7,9 @@
     <color name="back_color">#F3F4F5</color>
     <color name="hint_color">#B4C1C6</color>
     <color name="white_color">#FFFFFF</color>
+    <color name="red_color">#E53935</color>
     <color name="accent_color">#00b467</color>
+    <color name="accent1_color">#039BE5</color>
+    <color name="second_color">#545D5B</color>
+    <color name="third_color">#B4C1C6</color>
 </resources>

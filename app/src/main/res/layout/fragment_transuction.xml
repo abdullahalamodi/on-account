@@ -47,23 +47,20 @@
                         android:orientation="horizontal"
                         android:padding="10dp">
 
-                        <EditText
-                            android:id="@+id/et_search_product"
+                        <TextView
+                            android:id="@+id/name_tv"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:background="@drawable/search_back"
-                            android:drawableEnd="@drawable/search_icon"
-                            android:hint="بحث ..."
                             android:gravity="center"
-                            android:imeOptions="actionSearch"
-                            android:inputType="text"
-                            android:maxLines="1"
+                            android:text="عبدااله حسين باكعلوس"
                             android:paddingStart="20dp"
                             android:paddingEnd="20dp"
                             android:textColor="@color/second_color"
                             android:textColorHint="@color/hint_color"
-                            android:textSize="14sp" />
+                            android:textSize="14sp"
+                            app:drawableLeftCompat="@drawable/ic_person" />
 
                         <ImageButton
                             android:id="@+id/menu_btn"
@@ -101,7 +98,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:background="@drawable/ic_count_back"
-                                android:drawableLeft="@drawable/ic_person"
+                                android:drawableLeft="@drawable/ic_transaction"
                                 android:gravity="center"
                                 android:paddingLeft="6dp"
                                 android:text="25"
@@ -120,8 +117,8 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
-                                android:text="عدد الحسابات"
-                                android:textColor="@color/third_color" />
+                                android:text="عدد العمليات"
+                                android:textColor="@color/hint_color" />
 
                         </LinearLayout>
 
@@ -136,7 +133,7 @@
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
                                 android:text="المبلغ الاجمالي"
-                                android:textColor="@color/third_color" />
+                                android:textColor="@color/hint_color" />
 
                         </LinearLayout>
 
@@ -188,7 +185,8 @@
                     android:id="@+id/recycler_view"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    tools:listitem="@layout/main_item_list" />
+                    android:background="@color/back_color"
+                    tools:listitem="@layout/transaction_item_list" />
 
             </androidx.cardview.widget.CardView>
         </LinearLayout>
